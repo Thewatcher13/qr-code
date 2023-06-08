@@ -87,7 +87,7 @@ select {
 body {
   background-color:var(--Light-gray) ;
   font-family: 'Outfit', sans-serif;
-  font-size:0,9375rem;
+  font-size:0.9375rem;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +103,7 @@ body {
   gap:1rem;
   text-align: center;
   border-radius: 2rem;
-  max-width: 25rem;
+  max-width: 300px;
 }
 
 img{
@@ -112,9 +112,11 @@ img{
 
 .title {
   font-weight: 700;
+  font-size:0.9375rem;
+
 }
 
 .description-text{
   font-weight:400;
-  color:var(--Light-gray)
+  color:var(--Grayish-blue)
 }
