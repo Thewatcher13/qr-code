@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <!--your font-family should include in the head of your html-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--
+    use an external stylesheet, not an intern or absolute no inline styles 
+    bcs they have a high specificity and can only overwrite with !important
+  -->
+  <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+  <main> <!--You could use your main as wrapper too instead of a div-->
+    <div class="wrapper">
+      <img class="image__qr__code" src="/images/image-qr-code.png"alt="QR-code to frontendmentor"> <!--provide a clear alt text on your picture if it's not a decorative one-->
+      <h1 class="title"> <!--never skip the headings order in html, you can't have an h2 before you have an h1-->
+        Improve your front-end skills by building projects
+      </h1>
+      <p class="intro__text">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+    </div>
+  </main>
+</body>
+</html>
